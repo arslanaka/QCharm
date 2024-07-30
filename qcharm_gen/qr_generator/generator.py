@@ -1,6 +1,4 @@
 import qrcode
-from PIL import Image
-
 
 class QRCodeGenerator:
     @staticmethod
