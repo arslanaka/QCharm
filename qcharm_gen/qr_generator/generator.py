@@ -1,5 +1,6 @@
 import qrcode
 
+
 class QRCodeGenerator:
     @staticmethod
     def generate(data, style):
