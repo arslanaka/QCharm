@@ -5,7 +5,7 @@ import os
 
 class TestQRCodeGenerator(unittest.TestCase):
     def test_generate_qr_code(self):
-        data = "Test QR Code"
+        data = "Test QR"
         file_path = "test_qr.png"
         QRCodeGenerator.generate(data, file_path)
         self.assertTrue(os.path.exists(file_path))
